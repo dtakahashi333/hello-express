@@ -1,0 +1,45 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 48px 0;
+}
+
+.accordion > .title {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+.accordion > div:first-child {
+  border-top: 1px solid black;
+}
+
+.accordion > .description {
+  display: none;
+  width: 100%;
+  height: 96px;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 24px;
+}
